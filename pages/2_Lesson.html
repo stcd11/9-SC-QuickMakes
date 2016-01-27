@@ -100,6 +100,11 @@ for the JavaScript code in this tag.
 <ul class="org-ul">
 <li><a href="https://en.wikipedia.org/wiki/Relay">Relays</a> are components which use a very small voltage to control a much larger voltage. Click on the link to learn more about the component.
 </li>
+</ul>
+
+<iframe width="420" height="315" src="https://www.youtube.com/watch?v=tbMX9USTyAI" frameborder="0" allowfullscreen></iframe>
+
+<ul class="org-ul">
 <li>Using a relay allows the user to keep the low voltage completely seperate from the high voltage side. This keeps the user safe from harm as they are not in direct contact with the high voltage side.
 </li>
 <li><b>Warning: 240VAC is very dangerous and should only be connected by a professional.</b>
@@ -129,6 +134,8 @@ for the JavaScript code in this tag.
 <h3 id="sec-1-3">Build It</h3>
 <div class="outline-text-3" id="text-1-3">
 <ul class="org-ul">
+<li><b>You will not be able to de-solder any of the components once soldered. Make sure you check each component is in the correct place before soldering.</b>
+</li>
 <li>You PCB is going to look like this.
 </li>
 </ul>
@@ -138,15 +145,46 @@ for the JavaScript code in this tag.
 </p>
 </div>
 <ul class="org-ul">
+<li>Before making you PCB, you will need to drill 3mm strain relief holes for the wiring in 2 places.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/Drillholes.jpg" alt="Drillholes.jpg" />
+</p>
+</div>
+<ul class="org-ul">
 <li>Always start by soldeing the smallest components in place (which are usually the resistors) and then work towards the larger components.
+</li>
+<li>Two of the resistors are labelled differently on the board and have been changed. <b>It displays 3k3 on the board, but we will use a 3k9 resistor.</b>
+</li>
+</ul>
+<p>
+<img src="./img/3k9.jpg" alt="3k9.jpg" />
+<img src="./img/3k9second.jpg" alt="3k9second.jpg" />
+</p>
+<ul class="org-ul">
+<li>The resistor below is unlabeled, it is a 100k resistor.
+</li>
+</ul>
+
+<div class="figure">
+<p><img src="./img/100k.jpg" alt="100k.jpg" />
+</p>
+</div>
+<ul class="org-ul">
+<li><b>The microphone needs to be connected the correct way around. There is a positive and negative side.</b>
+</li>
+<li>You will not be able to push the microphone right down onto the board. Leave it to stick up off the board as necessary.
 </li>
 <li>In the end, your board should look like this.
 </li>
 </ul>
-<p>
-<img src="./img/ClosePCB.jpg" alt="ClosePCB.jpg" />
-<img src="./img/PCBcomplete.jpg" alt="PCBcomplete.jpg" />
+
+<div class="figure">
+<p><img src="./img/ClosePCB.jpg" alt="ClosePCB.jpg" />
 </p>
+</div>
 <ul class="org-ul">
 <li>To test the board, you will need to connect the relay outputs to a breadboard and an external power supply as shown below.
 </li>
@@ -189,7 +227,7 @@ for the JavaScript code in this tag.
 <h3 id="sec-1-6">Badge It Platinum</h3>
 <div class="outline-text-3" id="text-1-6">
 <ul class="org-ul">
-<li>our solder joints are excellent, no dry joints or excess solder.
+<li>Our solder joints are excellent, no dry joints or excess solder.
 </li>
 <li>You component placement is excellent, none of the components are off the board and not aligned correctly
 </li>
