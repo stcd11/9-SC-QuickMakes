@@ -5,13 +5,13 @@
 #+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
 #+OPTIONS: f:nil author:nil num:nil creator:nil timestamp:nil toc:nil html-style:nil
 
-#+TITLE: The Prisoner's Dilemma
-#+AUTHOR: Stephen Brown
+#+TITLE: Quick Makes
+#+AUTHOR: Clinton Delport
 
 #+BEGIN_HTML
   <div class="github-fork-ribbon-wrapper left">
     <div class="github-fork-ribbon">
-      <a href="https://github.com/stsb11/9-CS-gameTheory">Fork me on GitHub</a>
+      <a href="https://github.com/stsb11/9-SC-Quickmakes">Fork me on GitHub</a>
     </div>
   </div>
 <div id="stickyribbon">
@@ -89,7 +89,7 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
-* Introduction
+* Egg Timer
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
@@ -97,61 +97,50 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- Game theory is the study of how and why people make decisions.
-- It is used extensively in the study of economics, and can often show surprising insights into how people behave. 
-- We'll look at some of these in this unit, and code some different games along the way in both Scratch and Python. 
+- Boiling an egg requires perfect timing.
+- There are many ways to create a timing circuit, but one of the simplest ways is to use a [[https://en.wikipedia.org/wiki/555_timer_IC][555 timer]] circuit.
+- The 555 timer circuit relies on a basic electronic timing circuit which uses resistors and capacitors to create differnt time lengths.
+- The capacitor take times to charge, we can use this to create a time delay.
+- We can calculate the time delay using a simple formula, t = R x C.
+
+#+BEGIN_HTML
+<iframe width="560" height="315" src="./img/555circuitflashing.MOV" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
+
 ** Try It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- The Prisoner's Dilemma is probably the most popular example of game theory in action. It demonstrates that people don't always act in their own best interests. 
-
-#+BEGIN_HTML
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t9Lo2fgxWHw" frameborder="0" allowfullscreen></iframe>
-#+END_HTML
-
-- Imagine that two people have been arrested for a crime, and the police are uncertain which person committed the crime and which person helped carry it out. 
-- Each prisoner is put into a different room and given a choice: 
-     - Remain silent
-     - Betray your parter
-- If both stay silent, they will both be sent to prison for *1 year*.
-- If they both betray one another, they can both be sent away for *3 years*.
-- If one betrays the other, the betrayer goes *free*, and the other is imprisoned for *5 years*.
-
-- The lowest total amount of prison time somes from both parties cooperating, /but/ there's always the risk that the other person might not be as kind of you. 
-- This becomes more interesting if we play the game once, then immediately play it again. Each player will now have a knowledge of how the other person behaved last time, and this will influence their decision making process. 
-- If we assign points (based on minimizing time in jail), we can develop different game strategies to minimize the time the human player stays in jail over multiple games. 
-** Learn It
+[[./img/555circuit.jpg]]
+- Try building the circuit above using circuit wizard.
+- Change the values of R2 and see how it affects the speed at which the LED flashes.
+** Build It
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
+:HTML_CONTAINER_CLASS: build
 :END:
-- The same idea can be seen in different places in human society. 
-- Imagine a pair of competing fizzy drinks manufacturers. They both have two options when considering the sales of their products:
-    - *Option 1:* Don't spend money on advertising. People know your product already, and are currently buying it at a steady rate. 
-    - *Option 2:* Spend money on advertising. It'll cost money, but sales will increase.
-- If both companies cooperate (option 1), they'll both enjoy steady profits and won't have to spend thousands of pounds on advertising.
-- If one advertises and the other doesn't, one company will see their sales increase as the other company's sales (and profits) drop. 
-- If both companies advertise, the effects of them both advertising will cancel each other out, and both companies will see their overall profits drop because of the money they're spending on advertising. 
-- In real life, competing companies tend to advertise aggressively. 
-** Code It
+- Below is the full circuit diagram. if you have time, you can try design one yourself. 
+[[./img/fullcircuit555.jpg]]
+- Your circuit board will look like this.
+[[./img/Eggtimercwz.jpg]]
+- As usual, always start building with the smallest components first (the resistors).
+- Once you have finished your PCB, it should look like this.
+** Build It
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: code
+:HTML_CONTAINER_CLASS: build
 :END:
-- In a new browser tab, open [[https://scratch.mit.edu/projects/84074310/#editor][this link]] to see a prisoner's dilemma simulator
-- If you've a Scratch account, you can sign in to save the work you'll do here.
-- If you've not got one, you can always click 'File -> Download to your computer' when you're finished to ensure your work is saved.
-- Unfortunately, it looks like the developer didn't have time to finish the code, and there are some blanks. 
-- Based on the rules set out above, can you complete the code and make the game work?
+- The housing parts have been precut for you, you will just need to mount your PCB in the box.
+- *Make sure you test your egg timer before installing into the box.*
 ** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
 *** Silver
-- Complete the code for the game.
+- Paste a screenshot of your 555 timer circuit you designed and paste it into the word document (Or upload the picture directly).
+- Explain what happened when you changed the value of R2.  
 *** Gold
-- Modify the cat's strategy to be an 'angel'. It always stays silent, and never betrays the human player. 
-- Develop a new 'Unpredictable puss' strategy for the cat, so that it betrays or stays silent at random. 
+- Upload photos of the front and back of your project.
+- Your solder joints are good, some dry joints or excess solder.
+- You component placement is good, a few of the components are off the board and not aligned correctly.
 *** Platinum
-- Modify the cat's strategy so that it holds a grudge...
-- It will remain silent every time the game is played, until the human player betrays, then...
-- It will then always betray the human player until the game is reset.
+- Upload pictures of your completed, working project in the housing. This has been put together to a high standard.
+
