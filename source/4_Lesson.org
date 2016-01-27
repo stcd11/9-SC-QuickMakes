@@ -5,13 +5,13 @@
 #+HTML_HEAD_EXTRA: <script src="js/navbar.js" type="text/javascript"></script>
 #+OPTIONS: f:nil author:nil num:nil creator:nil timestamp:nil toc:nil html-style:nil
 
-#+TITLE: Ultimatum, Dictator and bargaining games
-#+AUTHOR: Paul Dougall
+#+TITLE: Quick Makes
+#+AUTHOR: Clinton Delport
 
 #+BEGIN_HTML
   <div class="github-fork-ribbon-wrapper left">
     <div class="github-fork-ribbon">
-      <a href="https://github.com/stsb11/9-CS-gameTheory">Fork me on GitHub</a>
+      <a href="https://github.com/stsb11/9-SC-Quickmakes">Fork me on GitHub</a>
     </div>
   </div>
 <div id="stickyribbon">
@@ -89,129 +89,56 @@
 :HTML_CONTAINER_CLASS: save
 :END:
 
-* Introduction: The Monty Hall problem
+* Drawdio
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: activity
 :END:
-** Document It
+** Learn It
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: document
+:HTML_CONTAINER_CLASS: learn
 :END:
-- Watch the video.
+- We can create diffent tones by creating different frequencies.
+- In the previous project(The Egg Timer) you learned about 555 timer circuits.
+- These circuits can produce pulses which change in frequency.
 
-#+BEGIN_HTML 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mhlc7peGlGg" frameborder="0" allowfullscreen></iframe>
+#+BEGIN_HTML
+<iframe width="560" height="315" src="./img/555circuitflashing.MOV" frameborder="0" allowfullscreen></iframe>
 #+END_HTML
 
-    Open a text editor and answer the following questions:
-
-- What is the problem?
-  
-- Should you swap, stick with your choice or does it make no difference?
-
-- What is the correct choice? Can you explain why?
-
-** Learn It: Ultimatum
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
-:END:
-- Ultimatum is a single round game. 
-- One player offers a share of a specified amount of money and the second player can choose to accept or reject this offer. 
-- If the second player accepts both get the agreed share however if they choose to reject they both get nothing.
-- Let try to solve the ultimatum game, in which one side makes a take-it-or-leave-it (also called fait accompli or ultimatum) offer.
-** Code It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: code
-:END:
-- Using Python lets make our own Ultimatum game.
-- Firstly lets think about the pseudocode
-
-[[./img/1_sshot.JPG]]
-
-- Now lets add the code which we will do in two stages.
-- Secondly open IDLE and get coding!
-
-
-- Part One 
-[[./img/2_sshot.JPG]]
-
-- Part Two
-
-[[./img/3_sshot.JPG]]
-
 ** Try It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
-- Using your code get other people in the room to play. Aim for 10 rounds of the game.
-- If everyone moves to the left.
-** Document It
+[[./img/555circuit.jpg]]
+- Try building the circuit above using circuit wizard.
+- Change the values of R2 and see how it affects the speed at which the LED flashes.
+** Build It
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: document
+:HTML_CONTAINER_CLASS: build
 :END:
-- What pattern can you see?
-
-- If they were using 'backward induction' what offers should they accept?
-
-- Why do they sometimes reject?
-
-** Learn It: Dictator Game
+- Below is the full circuit diagram. if you have time, you can try design one yourself. 
+[[./img/fullcircuit555.jpg]]
+- Your circuit board will look like this.
+[[./img/Eggtimercwz.jpg]]
+- As usual, always start building with the smallest components first (the resistors).
+- Once you have finished your PCB, it should look like this.
+** Build It
 :PROPERTIES:
-:HTML_CONTAINER_CLASS: learn
+:HTML_CONTAINER_CLASS: build
 :END:
-- In the dictator game, one student decides how to split a pot of money between herself and the other student. 
-- Once the decision has been made, the two students receive the specified split.
-- This game teaches students about the existence of altruists in the population, and when coupled with the ultimatum game can show students how to differentiate social norms from strategic responses.
-** Code It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: code
-:END:
-- Adapt your first program to just accept the first proposal with no chance of rejection. Use the comment out instruction rather than deleting code - we will need it later.
-
-- Here is the pseudocode to help you:
-
-[[./img/4_sshot.JPG]]
-
-** Try It
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- Using your code get other people in the room to play. Aim for 10 rounds of the game.
-- If everyone moves to the left.
-- Ask 10 students to play your game.
-
-- What is your average score? Highest? Lowest?
-What has happened to the scores compared to the Ultimatum game?
-
-** Try It: Multiple rounds
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: try
-:END:
-- The Bargaining(Nash) game is a simple 2 player game used to model other bargaining interactions. This time the second player is going to be able to make counteroffers. THere are 3 rounds and if there is no agreement at the end then no one gets any money.
-** Code It
-Lets expand our original game program to include the three rounds.
-
-Here is some pseudocode to help your challenge.
-
-[[./img/5_sshot.JPG]]
-
+- The housing parts have been precut for you, you will just need to mount your PCB in the box.
+- *Make sure you test your egg timer before installing into the box.*
+** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
-** Badge It Silver
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
-:END:
-- Upload your code for Ultimatum game the silver badge.
-** Badge It Gold
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
-:END:
-- Upload your code for Dictator game the Gold badge.
-** Badge It Platinum
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: badge
-:END:
-- Upload your code for the mulitple round bargaining game for the platinum badge.
-
+*** Silver
+- Paste a screenshot of your 555 timer circuit you designed and paste it into the word document (Or upload the picture directly).
+- Explain what happened when you changed the value of R2.  
+*** Gold
+- Upload photos of the front and back of your project.
+- Your solder joints are good, some dry joints or excess solder.
+- You component placement is good, a few of the components are off the board and not aligned correctly.
+*** Platinum
+- Upload pictures of your completed, working project in the housing. This has been put together to a high standard.
 
