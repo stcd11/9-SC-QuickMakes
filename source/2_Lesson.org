@@ -108,13 +108,13 @@
 - [[https://en.wikipedia.org/wiki/Relay][Relays]] are components which use a very small voltage to control a much larger voltage. Click on the link to learn more about the component.
 
 #+begin_html
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=tbMX9USTyAI" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/tbMX9USTyAI" frameborder="0" allowfullscreen></iframe>
 #+end_html
 
 - Using a relay allows the user to keep the low voltage completely seperate from the high voltage side. This keeps the user safe from harm as they are not in direct contact with the high voltage side.
 - *Warning: 240VAC is very dangerous and should only be connected by a professional.*
 - Using circuit wizard, build the circuit below and test to see how the relay works.
-[[./img/Relay.jpg]]
+[[./img/Relay.JPG]]
 - The circuit above uses a SPDT relay. This stands for Single Pole Double Throw. This refers to the fact there is one pole which the switch rotates on and that there are 2 throws which it can switch to, the NO throw and the NC throw.
 - There are a large variety of different [[https://en.wikipedia.org/wiki/Switch][switch]] types. 
 [[./img/SPDTswitch.jpg]]
