@@ -104,7 +104,7 @@
 - We can calculate the time delay using a simple formula, t = R x C.
 
 #+BEGIN_HTML
-<iframe width="560" height="315" src="./img/555circuitflashing.MOV" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oWXsYOFTIFM" frameborder="0" allowfullscreen></iframe>
 #+END_HTML
 
 ** Try It

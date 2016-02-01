@@ -97,21 +97,22 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: learn
 :END:
-- We can create diffent tones by creating different frequencies.
+- We can create different tones by creating different frequencies.
 - In the previous project(The Egg Timer) you learned about 555 timer circuits.
-- These circuits can produce pulses which change in frequency.
-
-#+BEGIN_HTML
-<iframe width="560" height="315" src="./img/555circuitflashing.MOV" frameborder="0" allowfullscreen></iframe>
-#+END_HTML
+- These circuits can produce pulses which change the frequency.
 
 ** Try It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: try
 :END:
+- Look at the video below to see how the frequency changes when you adjust the resistance.
+#+BEGIN_HTML
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Nh18MvApCdM" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
 [[./img/555circuit.jpg]]
 - Try building the circuit above using circuit wizard.
 - Change the values of R2 and see how it affects the speed at which the LED flashes.
+
 ** Build It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
