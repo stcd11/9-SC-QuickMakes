@@ -109,37 +109,56 @@
 #+BEGIN_HTML
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Nh18MvApCdM" frameborder="0" allowfullscreen></iframe>
 #+END_HTML
+
 [[./img/555circuit.jpg]]
 - Try building the circuit above using circuit wizard.
-- Change the values of R2 and see how it affects the speed at which the LED flashes.
+- Change the values of VR1 and see how it affects the speed at which the LED flashes.
 
 ** Build It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
 :END:
 - Below is the full circuit diagram. if you have time, you can try design one yourself. 
-[[./img/fullcircuit555.jpg]]
+[[./img/Drawdiocircuit.jpg]]
 - Your circuit board will look like this.
-[[./img/Eggtimercwz.jpg]]
+[[./img/DrawdioPCB.jpg]]
 - As usual, always start building with the smallest components first (the resistors).
 - Once you have finished your PCB, it should look like this.
+[[./img/CloseDrawdio.jpg]]
+[[./img/FullDrawdio.jpg]]
+- Below are some close-up pictures of how to connect the buzzer and switch.
+[[./img/BuzzerDrawdio.jpg]]
+[[./img/SwitchDrawdio.jpg]]
 ** Build It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
 :END:
-- The housing parts have been precut for you, you will just need to mount your PCB in the box.
-- *Make sure you test your egg timer before installing into the box.*
+- Now you need to attach your Drawdio to a pencil.
+- First file down the end of the pencil.
+- *Be very very gentle, or you will break the pencil.*
+[[./img/Filepencil.jpg]]
+- Now attach the copper tape to the top and bottom.
+[[./img/Tapepencil.jpg]]
+- You can now attach the board and solder the wires to pencil and neaten up the board.
+[[./img/Solderpencil.jpg]]
+- Time for testing.
+[[./img/Completepencil.jpg]]
 ** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
 :END:
 *** Silver
 - Paste a screenshot of your 555 timer circuit you designed and paste it into the word document (Or upload the picture directly).
-- Explain what happened when you changed the value of R2.  
+- Explain what happens to the frquency when you change the resistance value.
+- Explain how the change in frequency will change the pitch of the buzzer.  
 *** Gold
 - Upload photos of the front and back of your project.
 - Your solder joints are good, some dry joints or excess solder.
 - You component placement is good, a few of the components are off the board and not aligned correctly.
 *** Platinum
-- Upload pictures of your completed, working project in the housing. This has been put together to a high standard.
+- Upload pictures of your completed project here, if you have completed the project to a very high standard. 
+- No dry joints.
+- No excess solder. 
+- Components legs have been trimed well. 
+- The components have been placed on the board neatly.
 
