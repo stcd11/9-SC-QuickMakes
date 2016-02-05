@@ -122,14 +122,37 @@
 [[./img/fullcircuit555.jpg]]
 - Your circuit board will look like this.
 [[./img/Eggtimercwz.jpg]]
-- As usual, always start building with the smallest components first (the resistors).
-- Once you have finished your PCB, it should look like this.
+- You will need to add wires to the LED's, switch and Potentiometer (variable resistor).
+[[./img/Wiresadded.jpg]]
+- You can now add these parts to your PCB, along with all the components.
+- Your final PCB should look like this.
+[[./img/CloseFinal.jpg]]
+[[./img/Eggtimerfinal.jpg]] 
 ** Build It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: build
 :END:
-- The housing parts have been precut for you, you will just need to mount your PCB in the box.
-- *Make sure you test your egg timer before installing into the box.*
+- The housing parts have been pre-cut for you, you will just need to mount your PCB in the box.
+[[./img/MDFparts.jpg]]
+-  *Make sure you test your egg timer before installing into the box.*
+- First you will need to add the parts to the lid.
+- Starting with the LED's. These will need LED clips.
+[[./img/LEdclips1.jpg]]
+[[./img/LEDclips2.jpg]]
+[[./img/LEDclips3.jpg]]
+- You can then simply screw on the potentiometer and switch.
+- *Before you add the potentiometer, you will need to break off the tag using a pair of long nose pliers.*
+[[./img/POTtag1.jpg]]
+[[./img/POTtag2.jpg]]
+- Your lid should now be ready to fit to the rest of the box.
+[[./img/Partsfitted.jpg]]
+- First you will need to glue the bottom of the box together.
+- *Make sure the parts are the correct way around.*
+- Use masking tape to hold the parts together, wait till the glue is dry before fitting the top.
+[[./img/Boxstep1.jpg]]
+- Once the glue is dry, you can fit the lid with the PCB and test it again. 
+- The finished product should look like this.
+[[./img/Boxstep2.jpg]]
 ** Badge It
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: badge
