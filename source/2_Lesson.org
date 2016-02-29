@@ -146,6 +146,8 @@
 [[./img/3k9second.jpg]]
 - The resistor below is unlabeled, it is a 100k resistor.
 [[./img/100k.jpg]]
+- The capacitor below is unlabeled, it is a 100nF capacitor.
+[[./img/100nflabel.JPG]]
 - *The microphone needs to be connected the correct way around. There is a positive and negative side.*
 - You will not be able to push the microphone right down onto the board. Leave it to stick up off the board as necessary.
 - In the end, your board should look like this.
