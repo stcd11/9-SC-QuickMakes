@@ -140,7 +140,7 @@
 [[./img/PCB1.jpg]]
 - Before making you PCB, you will need to drill 3mm strain relief holes for the wiring in 2 places.
 [[./img/Drillholes.jpg]]
-- Always start by soldeing the smallest components in place (which are usually the resistors) and then work towards the larger components.
+- Always start by soldering the smallest components in place (which are usually the resistors) and then work towards the larger components.
 - Two of the resistors are labelled differently on the board and have been changed. *It displays 3k3 on the board, but we will use a 3k9 resistor.*
 [[./img/3k9.jpg]]
 [[./img/3k9second.jpg]]
