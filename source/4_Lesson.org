@@ -119,8 +119,9 @@
 :HTML_CONTAINER_CLASS: build
 :END:
 - Below is the full circuit diagram. if you have time, you can try design one yourself. 
-[[./img/Drawdiocircuit.jpg]]
-- Your circuit board will look like this.
+[[./img/Drawdiocircuit.png]]
+- Your circuit board will look like this. *Please note, the LM741 is actually a TDA2822M*
+- This will need to be replaced.
 [[./img/DrawdioPCB.jpg]]
 - As usual, always start building with the smallest components first (the resistors).
 - Once you have finished your PCB, it should look like this.
