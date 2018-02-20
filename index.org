@@ -21,16 +21,12 @@
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:
-* [[file:pages/3_Lesson.html][Week 3 - 555 Egg timer]]
-:PROPERTIES:
-:HTML_CONTAINER_CLASS: link-heading
-:END:
-* [[file:pages/4_Lesson.html][Week 4 - Drawdio]]
+* [[file:pages/4_Lesson.html][Week 3 - Drawdio]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:      
 
-* [[file:pages/5_Lesson.html][Week 5 - TBA]]
+* [[file:pages/5_Lesson.html][Week 4 - TBA]]
 :PROPERTIES:
 :HTML_CONTAINER_CLASS: link-heading
 :END:      
